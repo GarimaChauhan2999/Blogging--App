@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blogpost.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Open Book</title>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <span class="logo">Open Book</span>
+            <ul>
+                <li><a href="./Index.html">Home</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="./search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Search for articles">
+                <button class="btn">Search</b>
+            </form>
+        </div>
+    </nav>
+    <hr class="max-width-1 m-auto">
+    <div class="post-img">
+        <img src="./Images/img5.avif" alt="image">
+    </div>
+    <div class="blog-post-content max-width-2 m-auto my-1">
+        <h1 class="font2">Use Git like a senior engineer</h1>
+        <div class="blogpost-meta">
+            <div class="author-info">
+                <div class="author-name"><b> Author - Jacob Bennett </b></div>
+                <div class="blog-date">16 March | 6 min read</div>
+            </div>
+            <div class="social">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M20 5.34c-.67.41-1.4.7-2.18.87a3.45 3.45 0 0 0-5.02-.1 3.49 3.49 0 0 0-1.02 2.47c0 .28.03.54.07.8a9.91 9.91 0 0 1-7.17-3.66 3.9 3.9 0 0 0-.5 1.74 3.6 3.6 0 0 0 1.56 2.92 3.36 3.36 0 0 1-1.55-.44V10c0 1.67 1.2 3.08 2.8 3.42-.3.06-.6.1-.94.12l-.62-.06a3.5 3.5 0 0 0 3.24 2.43 7.34 7.34 0 0 1-4.36 1.49l-.81-.05a9.96 9.96 0 0 0 5.36 1.56c6.4 0 9.91-5.32 9.9-9.9v-.5c.69-.49 1.28-1.1 1.74-1.81-.63.3-1.3.48-2 .56A3.33 3.33 0 0 0 20 5.33"
+                        fill="#A8A8A8"></path>
+                </svg>
+                <span class="co vg ye yf"><svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M19.75 12.04c0-4.3-3.47-7.79-7.75-7.79a7.77 7.77 0 0 0-5.9 12.84 7.77 7.77 0 0 0 4.69 2.63v-5.49h-1.9v-2.2h1.9v-1.62c0-1.88 1.14-2.9 2.8-2.9.8 0 1.49.06 1.69.08v1.97h-1.15c-.91 0-1.1.43-1.1 1.07v1.4h2.17l-.28 2.2h-1.88v5.52a7.77 7.77 0 0 0 6.7-7.71"
+                            fill="#A8A8A8"></path>
+                    </svg></span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M19.75 5.39v13.22a1.14 1.14 0 0 1-1.14 1.14H5.39a1.14 1.14 0 0 1-1.14-1.14V5.39a1.14 1.14 0 0 1 1.14-1.14h13.22a1.14 1.14 0 0 1 1.14 1.14zM8.81 10.18H6.53v7.3H8.8v-7.3zM9 7.67a1.31 1.31 0 0 0-1.3-1.32h-.04a1.32 1.32 0 0 0 0 2.64A1.31 1.31 0 0 0 9 7.71v-.04zm8.46 5.37c0-2.2-1.4-3.05-2.78-3.05a2.6 2.6 0 0 0-2.3 1.18h-.07v-1h-2.14v7.3h2.28V13.6a1.51 1.51 0 0 1 1.36-1.63h.09c.72 0 1.26.45 1.26 1.6v3.91h2.28l.02-4.43z"
+                        fill="#A8A8A8"></path>
+                </svg>
+            </div>
+        </div>
+        <p>Git is a powerful tool that feels great to use when you know how to use it.
+            I’ve used these features of Git for years across teams and projects. I’m still developing opinions around
+            some workflows (like to squash or not) but the core tooling is powerful and flexible (and scriptable!).
+        </p> <br>
+        <p>Git is a distributed revision control and source code management system with an emphasis on speed. Git was
+            initially designed and developed by Linus Torvalds for Linux kernel development. Git is a free software
+            distributed under the terms of the GNU General Public License version 2. This tutorial explains how to use
+            Git for project version control in a distributed environment while working on web-based and non web-based
+            applications development.</p>
+        <br>
+        <p>Free and open source - Git is released under GPL’s open source license. It is available freely over the
+            internet. You can use Git to manage property projects without paying a single penny. As it is an open
+            source, you can download its source code and also perform changes according to your requirements.</p>
+        <br>
+        <p>Fast and small - As most of the operations are performed locally, it gives a huge benefit in terms of speed.
+            Git does not rely on the central server; that is why, there is no need to interact with the remote server
+            for every operation. The core part of Git is written in C, which avoids runtime overheads associated with
+            other high-level languages. Though Git mirrors entire repository, the size of the data on the client side is
+            small. This illustrates the efficiency of Git at compressing and storing data on the client side.</p>
+        <br>
+        <p>Implicit backup - The chances of losing data are very rare when there are multiple copies of it. Data present
+            on any client side mirrors the repository, hence it can be used in the event of a crash or disk corruption.
+        </p>
+        <br>
+        <p>Local Repository - Every VCS tool provides a private workplace as a working copy. Developers make changes in
+            their private workplace and after commit, these changes become a part of the repository. Git takes it one
+            step further by providing them a private copy of the whole repository. Users can perform many operations
+            with this repository such as add file, remove file, rename file, move file, commit changes, and many more.
+
+            Working Directory and Staging Area or Index -
+            The working directory is the place where files are checked out. In other CVCS, developers generally make
+            modifications and commit their changes directly to the repository. But Git uses a different strategy. Git
+            doesn’t track each and every modified file. Whenever you do commit an operation, Git looks for the files
+            present in the staging area. Only those files present in the staging area are considered for commit and not
+            all the modified files.</p>
+    </div>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="home-articles max-width-1 m-auto">
+        <h2>Similar Articles</h2>
+        <div class="row">
+            <div class="home-article more-post">
+                <div class="home-article-img">
+                    <img src="./Images/image-1.jpg" alt="article">
+                </div>
+                <div class="home-article-content font2">
+                    <a href="./blogpost1.html">
+                        <h3>What’s Going On? The Silicon Valley Bank Collapse vs. the 2008 Financial Crisis</h3>
+                    </a>
+                    <div>Author - Anna Burgess Yang</div>
+                    <span>01 March | 5 mins read</span>
+                </div>
+            </div>
+            <div class="home-article more-post">
+                <div class="home-article-img">
+                    <img src="Images/image-5.jpg" alt="article">
+                </div>
+                <div class="home-article-content font2">
+                    <a href="blogpost5.html">
+                        <h3>The Biggest Issue with Long-Term Productivity</h3>
+                    </a>
+                    <div>Author - Scott H. Young</div>
+                    <span>09 March | 3 mins read</span>
+                </div>
+            </div>
+            <div class="home-article more-post">
+                <div class="home-article-img">
+                    <img src="./Images/image-4.jpg" alt="article">
+                  </div>
+                  <div class="home-article-content font2">
+                    <a href="blogpost4.html">
+                      <h3>What Every Parent Needs To Know About Teen Substance Use</h3>
+                    </a>
+                    <div>Author - Danielle Dick, Ph.D.</div>
+                    <span>21 March | 5 mins read</span>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copywrite &copy; Open Book </p>
+    </div>
+</body>
+
+</html>
